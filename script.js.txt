@@ -1,0 +1,5 @@
+document.getElementById('send-message').addEventListener('click', () => {
+    Telegram.WebApp.sendData('Hello from Web App!');
+});
+
+Telegram.WebApp.ready();
